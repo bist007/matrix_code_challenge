@@ -3,6 +3,8 @@
 2D matrix of numbers from 0 to 9 with variable width and height. 
 This code can find the square submatrix with the highest sum of boundary elements.
 
+Author: BIST
+
 */
 
 #include <stdio.h>
