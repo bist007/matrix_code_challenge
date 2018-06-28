@@ -10,13 +10,16 @@ Author: BIST
 #include <stdio.h>
 
 int main () {
-    int r, c, m, n, sub_m, sub_n, mat_1[10][10], mat_2[10][10], k, l;
+    int r, c, m, n, sub_m, sub_n, k, l;
     
-    int mat_col[10][10], sum=0, sum_temp=0, r1, c1;
+    int sum=0, sum_temp=0, r1, c1;
     
     printf ("Enter the matrix dimensions in R C format :\n");
 
     scanf ("%d %d",&m,&n);                                                                   //  Matrix dimension 
+    
+    int mat_col[m][n], mat_1[m][n], mat_2[m][n];
+    
     if (m==0 || n==0){
         printf ("error : enter value greater the zero value\n");
         return 0;
