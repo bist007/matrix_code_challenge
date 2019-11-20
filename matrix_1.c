@@ -54,7 +54,7 @@ int main () {
     int u=0, v=0;
 
 
-        for (int i=0; i<=m; i++) {                                              //  loop for sub-matrix selectionn
+        for (int i=0; i<=m; i++) {                                              //  loop for sub-matrix selection
         
             for (int j=0; j<=n; j++) {
             
